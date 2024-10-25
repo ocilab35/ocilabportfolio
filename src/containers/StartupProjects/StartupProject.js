@@ -70,6 +70,7 @@ export default function StartupProject() {
                         {project.footerLink.map((link, i) => {
                           return (
                             <span
+                            style={{fontSize:'20px'}}
                               key={i}
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"

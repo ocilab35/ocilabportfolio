@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Shehzad",
-  title: "Hi all, I'm Shehzad",
+  username: "OCI LAB",
+  title: "Welcome to OCI Lab",
   subTitle: emoji(
-    "A passionate Full Stack  Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Flutter and some other cool libraries and frameworks."
+    "OCILAB having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1AGuLG7dbUgLdOoUrARSyKtHESWDIL35b/view?usp=drive_link", // Set to empty to hide the button
@@ -33,14 +33,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Mshehzad123/",
+  github: "https://github.com/ocilab35/",
   linkedin: "https://www.linkedin.com/feed/",
-  gmail: "shehzadali.6714349@gmail.com ",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  instagram: "https://www.instagram.com/oci.lab/profilecard/?igsh=MW1lY3R4aXd1Y3F5ZQ==",
+  gmail: "ocilab35@gmail.com",
+  facebook: "https://www.facebook.com/profile.php?id=61567947801260&mibextid=ZbWKwL",
+  youtube: "https://www.youtube.com/@ocilab",
+  display: true 
 };
-
 // Skills Section
 
 const skillsSection = {
@@ -48,11 +48,11 @@ const skillsSection = {
   subTitle: "OCI FULL STACK DEVELOPER TEAM WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "🥳 Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("💫 Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 
@@ -93,9 +93,39 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
     }
+    ,
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
+,
+{
+  skillName: "Jenkins",
+  fontAwesomeClassname: "fab fa-jenkins"
+}
+,
+{
+  skillName: "AWS",
+  fontAwesomeClassname: "fab fa-aws"
+}
+,
+
+
+
+{
+  skillName: "Illustrator",
+  fontAwesomeClassname: "fa-solid fa-bezier-curve"
+},
+{
+  skillName: "WordPress",
+  fontAwesomeClassname: "fab fa-wordpress"
+},
+
+
+ 
     
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to tr
 };
 
 // Education Section
@@ -104,34 +134,46 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Massachusetts Institute of Technology",
-      logo: require("./assets/images/mas.jpg"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Focused on developing innovative web and Android applications, utilizing cutting-edge technologies to solve real-world challenges. Conducted research in user experience design and mobile app development, contributing to a project that enhanced the functionality of mobile platforms.",
-      descBullets: [
-        "Designed and implemented responsive web applications using HTML, CSS, and JavaScript frameworks such as React and Angular.",
-        "Developed and deployed Android applications, integrating RESTful APIs to enhance app functionality.",
-        "Participated in user experience workshops to refine design skills and ensure applications met user needs effectively.",
-        "Collaborated with peers on a team project to create a full-stack application, gaining hands-on experience in both front-end and back-end development."
-      ]
+      schoolName: "Committed to quality excellence",
+      
+      desc: "adheres to various qualityTo ensure its offerings are compliant to various international quality standards, NETSOL meticulously  stipulations issued by quality ensuring authorities. NETSOL received CMMI Level 5 Certification in 2006, the highest internationally recognized quality assurance standard for enhancing and evaluating an organization's software development processes. The company successfully achieved both SOC 2 Type 1 and SOC 2 Type 2 compliance, demonstrating the company? s continued dedication to safeguarding the data of its clients and their customers.",
+     
     }
-,    
-{
-  schoolName: "California Institute of Technology ",
-  logo: require("./assets/images/cali.jpg"),
-  subHeader: "Bachelor of Science in Computer Science",
-  duration: "September 2013 - April 2017",
-  desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-  descBullets: [
-  "Gained hands-on experience in developing secure web applications through project-based coursework.",
-  "Collaborated with peers to implement agile methodologies in software development, enhancing project management skills.",
-  "Conducted in-depth analyses of web security vulnerabilities, contributing to improved application security practices.",
-  "Participated in coding competitions, honing problem-solving skills and fostering a competitive spirit among peers.",
-  "Engaged with industry professionals through networking events and guest lectures, gaining insights into emerging technologies."
-]
 
-}
+  ]
+};
+const educationInfos = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Ensured service levels",
+      
+      desc: "We have received various awards and recognition for the quality of our solutions and services over the years.",
+     
+    }
+
+  ]
+};
+const educationInformation = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Pioneers in the industry",
+      
+      desc: "We are proud to be the first to introduce a full suite of mobile-based digital transformation solutions for the global asset finance and leasing industry (formerly NFS Digital). NETSOL also pioneered the worlds first marketplace of API-first products for the global credit, finance, and leasing industry (formerly Appex Now)."
+     
+    }
+  ]
+};
+const educationInformations = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Harnessing the power of AI",
+      
+      desc: "In 2019, NETSOL embarked on a groundbreaking journey, establishing its AI division with the vision to utilize the power of AI to revolutionize how institutions navigate the complexities of the modern market. Today, we stand proud as leaders in the realm of AI-powered innovation, reshaping the financial services landscape. From risk assessment to customer engagement, our AI solutions empower our partners to stay ahead in an ever-evolving industry. We now cater to a diverse range of other sectors as well."
+     
+    }
   ]
 };
 
@@ -141,16 +183,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Web/App", //Insert stack or technology you have experience in
+      progressPercentage: "96%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "DevOps",
+      progressPercentage: "96%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Graphic Design ",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -162,40 +204,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "NestAway",
-      companylogo: require("./assets/images/nest.png"),
-      date: "June 2018 – Present",
-      desc: "Developing and maintaining scalable web applications to enhance the user experience for renters and property owners. Collaborating with cross-functional teams to deliver high-quality features and improvements while ensuring optimal performance and security.",
+      company: "App Development",
+      companylogo: require("./assets/images/appp.png"),
+      desc: "Over the past 2 years, we have been committed to delivering high-quality services in app development. Our dedicated team has successfully completed numerous projects, helping businesses grow through innovative solutions and visually appealing designs.",
       descBullets: [
-        "Implemented responsive design techniques to optimize web applications for various devices, resulting in a 30% increase in user engagement.",
-        "Led a team to integrate new payment processing solutions, enhancing transaction security and reducing processing times by 20%.",
-        "Conducted code reviews and mentored junior developers, fostering a culture of continuous improvement and knowledge sharing."
+        " We create user-friendly and scalable mobile applications tailored to meet the specific needs of clients across various industries, ensuring seamless performance and intuitive interfaces."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Contributed to the design and development of user-friendly web interfaces, focusing on improving user engagement and accessibility. Collaborated with UX/UI designers to implement interactive features and optimize performance across various browsers.",
+      company: "Web Development",
+      companylogo: require("./assets/images/web.png"),
+      desc: "Over the past 2 years, we have been committed to delivering high-quality services in  web development . Our dedicated team has successfully completed numerous projects, helping businesses grow through innovative solutions and visually appealing designs",
       descBullets: [
-        "Developed dynamic web pages using React and JavaScript, improving page load speed by 25%.",
-        "Worked closely with the design team to implement A/B testing strategies, leading to a 15% increase in user retention.",
-        "Participated in daily stand-ups and sprint planning sessions, enhancing team communication and project delivery timelines."
+        "We design and develop responsive websites that offer a great user experience. Our focus is on creating robust, secure, and SEO-friendly websites that drive traffic and boost conversions"
+       
       ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Assisted in the development of scalable applications, focusing on backend services and API integrations. Gained practical experience in software development methodologies and contributed to enhancing user functionalities.",
-      descBullets: [
-        "Collaborated with the engineering team to improve existing APIs, resulting in a 15% increase in response time and overall user satisfaction.",
-        "Conducted unit testing and debugging to ensure software reliability, contributing to a smoother deployment process.",
-        "Participated in team meetings and provided insights on feature development, gaining exposure to agile project management practices."
+      company: "DevOps Engineer",
+      companylogo: require("./assets/images/devops.png"),
+      desc: "Over the past 2 years, we have been committed to delivering high-quality services in DevOps Engineering. Our dedicated team has successfully completed numerous projects, helping businesses grow through automated workflows, infrastructure optimization, and scalable solutions that enhance operational efficiency."
+      ,descBullets: [
+        "From automating workflows to managing scalable infrastructure, we deliver solutions that streamline development processes. Our DevOps practices align with the team's goals, ensuring efficiency, reliability, and seamless integration across all environments."
       ]
+      
     }
   ]
   
@@ -246,15 +278,11 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements And Certifications "),
+  
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -298,15 +326,15 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  // subtitle: emoji(
+  //   "We are passionate about our work, always striving for excellence, and value feedback as a key driver for continuous improvement and innovation."
+  // ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://docs.google.com/presentation/d/1vPeXzZUKFNqbrcIYZdzZx79_ryIFYoPDaec8B5mazOg/edit?usp=sharing",
+      title: "OCI Enhances Experiences",
+      subtitle: "OCI Lab 2022",
+      slides_url: "https://gamma.app/docs/OCI-LAB-Powering-Innovation-Through-Diverse-Expertise-vda4yop20cyjxaa?mode=present#card-xxcftm68n6t9eyp",
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -335,19 +363,16 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Us "),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? Our Inbox is open for all.",
   number: "+92-3426714349",
-  email_address: "shehzadali.6714349@gmail.com "
+  email_address: "ocilab35@gmail.com "
 };
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
+
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -367,7 +392,9 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  educationInformation,
+  educationInformations,
+  educationInfos
 };

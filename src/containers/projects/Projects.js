@@ -62,6 +62,7 @@ export default function Projects() {
           <Button
             text={"More Projects"}
             className="project-button"
+            style
             href={socialMediaLinks.github}
             newTab={true}
           />

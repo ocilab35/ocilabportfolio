@@ -6,7 +6,7 @@ export default function SoftwareSkill() {
   return (
     <div>
       <div className="software-skills-main-div">
-        <ul className="dev-icons">
+        <ul className="dev-icons cursor-pointer  hover:bg-slate-800 ">
           {skillsSection.softwareSkills.map((skills, i) => {
             return (
               <li
@@ -14,7 +14,7 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                <i className={skills.fontAwesomeClassname} cursor-pointer  ></i>
                 <p>{skills.skillName}</p>
               </li>
             );

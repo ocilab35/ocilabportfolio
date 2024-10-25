@@ -20,29 +20,33 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.linkedin ? (
-        <a
-          href={socialMediaLinks.linkedin}
-          className="icon-button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a>
-      ) : null}
+     
+    {socialMediaLinks.facebook ? (
+  <a
+    href={socialMediaLinks.facebook}
+    className="icon-button facebook"  // Updated to 'instagram'
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="fab fa-facebook"></i>
+    <span></span>
+  </a>
+) : null}
+ {socialMediaLinks.instagram ? (
+  <a
+    href={socialMediaLinks.instagram}
+    className="icon-button instagram"  // Updated to 'instagram'
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="fab fa-instagram"></i>
+    <span></span>
+  </a>
+) : null}
 
-      {socialMediaLinks.gmail ? (
-        <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fas fa-envelope"></i>
-          <span></span>
-        </a>
-      ) : null}
+
+
+
 
     </div>
   );

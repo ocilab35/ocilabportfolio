@@ -32,6 +32,8 @@ export default function AchievementCard({cardInfo, isDark}) {
         {cardInfo.footer.map((v, i) => {
           return (
             <span
+            style={{fontSize:'20px'}}
+
               key={i}
               className={
                 isDark ? "dark-mode certificate-tag" : "certificate-tag"
