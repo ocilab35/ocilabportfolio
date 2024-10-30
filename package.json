@@ -1,8 +1,11 @@
 {
   "homepage": "https://developerfolio.js.org/",
+
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ocilab35.github.io/ocilab",
+
   "dependencies": {
     "aos": "^2.3.4",
     "colorthief": "^2.3.0",
